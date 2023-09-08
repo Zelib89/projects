@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+}
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    header {
+        display: flex;
+        height: 80px;
+        padding: 13px 0;
+        justify-content: space-between;
+        align-items: center;
+        .menu {
+            display: flex;
+            .eng {
+                margin-right: 50px;
+                color: #000000;
+                font-family: Tourney;
+                font-size: 22px;
+                letter-spacing: 0.88px;
+                text-decoration: unset;
+                display: flex;
+                align-items: center;
+            }
+           nav {
+                ul {
+                    display: flex;
+                    gap: 10px;
+                    span {
+                        color: #000;
+                        font-family: Staatliches;
+                        font-size: 22px;
+                        line-height: normal;
+                        letter-spacing: 0.66px;
+                    }
+                    li {
+                        a {
+                            color: #000;
+                            font-family: Staatliches;
+                            font-size: 22px;
+                            line-height: normal;
+                            letter-spacing: 0.66px;
+                            text-decoration: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        display: flex;
+        padding-top: 70px;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .chapter {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h2 {
+            color: #000;
+            font-family: Francois One;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: 1.44px;
+            margin: 0;
+            sup {
+                vertical-align: super;
+                small {
+                    color: #000;
+                    font-family: Farro;
+                    font-size: 15px;
+                    line-height: normal;
+                    letter-spacing: 1.2px;
+                    vertical-align: super;
+                }
+            }
+       }
+       p {
+        color: #000;
+        font-family: PT Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+       }
+    }
+    mark {
+        background-color: #d3d3d3;
+    }
