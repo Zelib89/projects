@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+.container .section-head {
+  margin-bottom: 40px;
+}
+.container .section-head h3 {
+  color: #898F8F;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.container .section-head h1 {
+  color: #FC0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.container .section-head .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .section-head .divider .before {
+  width: 210px;
+  height: 1px;
+  background: #FC0;
+}
+.container .section-head .divider .after {
+  width: 210px;
+  height: 1px;
+  background: #FC0;
+}
+.container .section-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.container .section-slider .left-side {
+  position: relative;
+  padding: 15px;
+  height: 430px;
+}
+.container .section-slider .left-side .top-left,
+.container .section-slider .left-side .top-right,
+.container .section-slider .left-side .bottom-left,
+.container .section-slider .left-side .bottom-right {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 1px solid gold;
+}
+.container .section-slider .left-side .top-left {
+  top: 0;
+  left: 0;
+  border-bottom: unset;
+  border-right: unset;
+}
+.container .section-slider .left-side .top-right {
+  top: 0;
+  right: 0;
+  border-bottom: unset;
+  border-left: unset;
+}
+.container .section-slider .left-side .bottom-left {
+  bottom: 0;
+  left: 0;
+  border-top: unset;
+  border-right: unset;
+}
+.container .section-slider .left-side .bottom-right {
+  bottom: 0;
+  right: 0;
+  border-top: unset;
+  border-left: unset;
+}
+.container .section-slider .line {
+  width: 1px;
+  height: 560px;
+  border-left: 1px solid gold;
+}
+.container .section-slider .right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 420px;
+}
+.container .section-slider .right-side h2 {
+  width: 235px;
+  height: 34px;
+  color: #666;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container .section-slider .right-side .divider {
+  padding: 30px;
+}
+.container .section-slider .right-side .lines {
+  width: 100px;
+  height: 1px;
+  background: #FC0;
+}
+.container .section-slider .right-side h4 {
+  color: #666;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.container .section-slider .right-side .social {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.container .section-slider .right-side .social img {
+  width: 30px;
+  height: 30px;
+}
+.container .section-slider .right-side p {
+  color: #333;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  width: 430px;
+  height: 116px;
+  margin-top: 49px;
+}
+.container .section-slider .right-side .decore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+.container .section-slider .right-side .one, .container .section-slider .right-side .three {
+  width: 10px;
+  height: 4px;
+  background: #FC0;
+}
+.container .section-slider .right-side .two {
+  width: 20px;
+  height: 4px;
+  background: #FC0;
+}
+.container .section-slider .right-side button {
+  color: #666;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FC0;
+  background: none;
+  margin-top: 25px;
+}/*# sourceMappingURL=style.css.map */
